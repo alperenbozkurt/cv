@@ -14,7 +14,7 @@ body{
 	width: auto;
 	left: 0px;
 	right: 0px;
-	animation: ustegel 2.2s forwards;
+	/*animation: ustegel 2.2s forwards;*/
 }
 .ortala{
 	width: 1000px;
@@ -34,8 +34,8 @@ body{
 	box-shadow: inset 0px 0px 10px 2px rgba(81,81,81,0.7);
 	float: left;
 	opacity: 0;
-	animation: baslikGel 1.4s forwards;
-	animation-delay: 0.6s;
+	/*animation: baslikGel 1.4s forwards;
+	animation-delay: 0.6s;*/
 }
 .adim{
 	float: left;
@@ -47,8 +47,8 @@ body{
 	font-size: 400%;
 	font-family: 'Lobster', cursive;
 	opacity: 0;
-	animation: baslikGel 1.4s forwards;
-	animation-delay: 0.6s;
+	/*animation: baslikGel 1.4s forwards;
+	animation-delay: 0.6s;*/
 }
 .bosluk{
 	height: 20px;
@@ -63,8 +63,8 @@ body{
 	color: rgba(0,0,0,0.5);
 	float: left;
 	opacity: 0;
-	animation: yavastanGel 2s forwards;
-	animation-delay: 0.7s;
+	/*animation: yavastanGel 2s forwards;
+	animation-delay: 0.7s;*/
 }
 .ara{
 	margin-top:5px;
