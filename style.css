@@ -8,6 +8,11 @@ body{
 	background-color: #ecf0f1;
 	font-family: 'Roboto Slab', serif;
 }
+.info{
+	font-size: 13px;
+	font-family: monospace;
+	margin-right: 50px;
+}
 .ustbar{
 	background-color: #8e44ad;
 	height: 200px;
