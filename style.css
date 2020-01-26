@@ -7,6 +7,7 @@ body{
 	margin: 0px;
 	background-color: #ecf0f1;
 	font-family: 'Roboto Slab', serif;
+	height: 100vh;
 }
 .info{
 	font-size: 13px;
@@ -21,6 +22,7 @@ body{
 	right: 0px;
 	box-shadow: 0px 0px 10px 2px rgba(81,81,81,0.3);
 	/*animation: ustegel 2.2s forwards;*/
+	padding-bottom: -300px;
 }
 .ortala{
 	width: 1050px;
@@ -76,14 +78,20 @@ body{
 	float: left;
 	opacity: 1;
 	box-shadow: 0px 0px 10px 1px rgba(81,81,81,0.14);
-	min-height: 240px;
+	min-height: 318px;
 	/*
 		animation: yavastanGel 2s forwards;
 		animation-delay: 0.7s;
 	*/
 }
+.kutu-ust{
+	min-height: 250px;
+}
 .ara{
 	margin-top:5px;
+}
+.arabosluk{
+	margin-bottom: 30px;
 }
 h1{
 	font-family: 'Roboto Slab', serif;
@@ -199,9 +207,12 @@ hr{
 		opacity: 1;
 	}
 }
-
 .kutu-buyuk{
 	width: 90%;
+}
+.biraz-alt{
+	margin-top: 50px;
+	padding-bottom: 5px;
 }
 .hr-buyuk{
 	width: 940px;
