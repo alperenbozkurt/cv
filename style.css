@@ -20,7 +20,6 @@ body{
 	width: auto;
 	left: 0px;
 	right: 0px;
-	box-shadow: 0px 0px 10px 2px rgba(81,81,81,0.3);
 	/*animation: ustegel 2.2s forwards;*/
 	padding-bottom: -300px;
 }
@@ -45,7 +44,6 @@ body{
 	position: absolute;
 	margin: 10px;
 	margin-left: 70px;
-	box-shadow: inset 0px 0px 10px 2px rgba(81,81,81,0.7);
 	float: left;
 	opacity: 1;
 	/*animation: baslikGel 1.4s forwards;
@@ -57,7 +55,6 @@ body{
 	margin-top: 50px;
 	font-size: 40px;
 	color: #fff;
-	text-shadow: rgba(81, 81, 81, 0.5) 3px 2px 3px;
 	font-size: 400%;
 	font-family: 'Lobster', cursive;
 	opacity: 1;
@@ -77,7 +74,6 @@ body{
 	color: rgba(0,0,0,0.5);
 	float: left;
 	opacity: 1;
-	box-shadow: 0px 0px 10px 1px rgba(81,81,81,0.14);
 	min-height: 347px;
 	/*
 		animation: yavastanGel 2s forwards;
@@ -174,28 +170,22 @@ hr{
 @keyframes ustegel {
 	0% {
 		height: 1000px;
-		box-shadow: 0px 0px 0px 0px #fff;
 	}
 	50% {
     height: 200px;
-		box-shadow: 0px 0px 0px 0px #fff;
 	}
 	100% {
     height: 200px;
-		box-shadow: 0px 0px 10px 2px rgba(81,81,81,0.7);
 	}
 }
 @keyframes yavastanGel {
   0% {
     opacity: 0;
-		box-shadow: 0px 0px 0px 0px #fff;
   }
 	50% {
     opacity: 1;
-		box-shadow: 0px 0px 0px 0px #fff;
 	}
   100% {
-		box-shadow: 0px 0px 10px 0px rgba(81,81,81,0.2);
     opacity: 1;
   }
 }
@@ -224,9 +214,6 @@ hr{
 }
 .proje-image{
 	border-radius: 8px;
-	box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
-							0 8px 16px -8px hsla(0, 0%, 0%, 0.3),
-							0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
 	margin-right: 20px;
 }
 .proje {
