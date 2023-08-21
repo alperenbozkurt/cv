@@ -200,7 +200,7 @@ hr{
 	}
 }
 .kutu-buyuk{
-	width: 90%;
+	width: 90.5%;
 }
 .biraz-alt{
 	margin-top: 40px;
@@ -230,4 +230,19 @@ hr{
 }
 .kutu-yukseklik {
 	min-height: 371px;
+}
+.flash-message{
+	background: rgba(155, 89, 182, 0.1);
+	min-height: auto;
+	margin-top: 10px;
+	border: 1px solid rgba(155, 89, 182,1.0);
+}
+.flash-message a{
+	color: rgba(155, 89, 182, 1);
+}
+.kutu-bosluk{
+	margin-top: 40px;
+}
+.kutu-bosluk .proje{
+	margin-top: 0px !important;
 }
