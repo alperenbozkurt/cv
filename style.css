@@ -236,6 +236,7 @@ hr{
 	min-height: auto;
 	margin-top: 10px;
 	border: 1px solid rgba(155, 89, 182,1.0);
+	display: none
 }
 .flash-message a{
 	color: rgba(155, 89, 182, 1);
