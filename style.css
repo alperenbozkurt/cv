@@ -83,7 +83,7 @@ body{
 	*/
 }
 .kutu-ust{
-	min-height: 250px;
+	min-height: 261px;
 }
 .ara{
 	margin-top:5px;
@@ -226,7 +226,7 @@ hr{
 	margin-top: 270px;
 }
 .egitim{
-	height: 360px;
+	min-height: 415px;
 }
 .kutu-yukseklik {
 	min-height: 371px;
